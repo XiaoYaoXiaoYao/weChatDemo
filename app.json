@@ -1,0 +1,56 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/index2/index2",
+    "pages/index1/index1",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#007acc",
+    "navigationBarTitleText": "我的小demo",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#eeeeee"
+    
+    
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor":"#008000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"image/icon/gift.png",
+      "selectedIconPath":"image/icon/gift.png"
+      
+
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "照片",
+      "iconPath":"image/icon/pic.png",
+      "selectedIconPath":"image/icon/pic.png"
+      
+    },
+    {
+      "pagePath": "pages/index1/index1",
+      "text": "购物车",
+      "iconPath":"image/icon/cart-Empty.png",
+      "selectedIconPath":"image/icon/cart-Empty.png"
+      
+    }
+  ,{
+    "pagePath": "pages/index2/index2",
+    "text": "我的",
+    "iconPath":"image/icon/guanliyuan.png",
+    "selectedIconPath":"image/icon/guanliyuan.png"
+    
+  }
+]
+  },
+  "usingComponents": {
+    "mp-icon": "components/icon/icon"
+  }
+}

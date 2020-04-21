@@ -1,0 +1,5 @@
+
+<view>index2</view>
+<button type="primary" style="width:100%;">
+    <mp-icon icon="add2" color="white" size="{{25}}"/>
+</button>

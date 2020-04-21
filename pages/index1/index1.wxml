@@ -1,0 +1,22 @@
+<view class="view1">
+<text >卡布奇诺</text>
+<text > ￥9.00</text>
+</view>
+
+
+
+<view   class="box ">
+<text class="view2" >收款方</text>
+<text class="view3" >咖啡走廊</text>
+</view>
+
+<view   class="box1">
+<text class="view2 ">商品</text>
+<text class="view3">卡布奇诺</text>
+</view>
+
+
+<button class="button1">立即支付</button>
+
+    
+
