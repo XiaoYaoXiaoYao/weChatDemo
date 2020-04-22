@@ -1,19 +1,16 @@
 <view class="log-list">
-
-	<swiper class="lunbo" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular>
-		<!-- <block wx:for="{{background}}" wx:key="*this">
+				<swiper class="lunbo" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular>
+								<!-- <block wx:for="{{background}}" wx:key="*this">
           <swiper-item>
             <view class="swiper-item {{item}}"></view>
           </swiper-item>
         </block> -->
-
-		<swiper-item  >
-			<image src='/image/1.jpg'></image>
-		</swiper-item>
-		
-    <swiper-item>
-			<image src='/image/2.jpg'></image>
-		</swiper-item>
-
-	</swiper>
+								<swiper-item>
+												<image src='/image/1.jpg'></image>
+								</swiper-item>
+								<swiper-item>
+												<image src='/image/2.jpg'></image>
+								</swiper-item>
+				</swiper>
 </view>
+<view>hello</view>
